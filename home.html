@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection of Watches</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: royalblue;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 2rem;
+            position: relative;
+            background: url('https://wallpapercave.com/wp/wp1853719.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .category-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .category {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: left;
+            width: 300px;
+            margin-bottom: 1rem;
+        }
+
+        .category h2 {
+            margin: 0;
+        }
+
+        footer {
+            background-color: royalblue;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>COLLECTION OF WATCHES</h1>
+        <nav>
+            <ul>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="couples.html">Couples</a></li>
+                <li><a href="aboutus.html">Product </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="category-container">
+            <div class="category mens">
+                <h2>Mens</h2>
+                <p>Stylish and durable watches for men.</p>
+                <a href="men.html">Explore Mens Watches</a>
+            </div>
+            <div class="category womens">
+                <h2>Womens</h2>
+                <p>Elegant and fashionable watches for women.</p>
+                <a href="women.html">Explore Womens Watches</a>
+            </div>
+            <div class="category kids">
+                <h2>Kids</h2>
+                <p>Fun and colorful watches for kids.</p>
+                <a href="kids.html">Explore Kids Watches</a>
+            </div>
+            <div class="category couples">
+                <h2>Couples</h2>
+                <p>Matching watches for couples.</p>
+                <a href="couples.html">Explore Couples Watches</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Collection of Watches Store.</p>
+        <p>Contact Number: +92-3416390045</p>
+        <p>About Us:
+            Our Collection: Mens Watches | Ladies Watches | Couple Watches | Eid ul adha sale.</p>
+    </footer>
+</body>
+</html>

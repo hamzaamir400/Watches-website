@@ -1,0 +1,627 @@
+<!DOCTYP<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Watches - MKN Cosmetics</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://source.unsplash.com/random') no-repeat center center fixed; /* Background image */
+            background-size: cover;
+            color: #000000; 
+        }
+        nav {
+            width: 100%;
+            background-color: rgba(19, 19, 19, 0.7); /* Black background for navigation */
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: #fff; /* White text */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .row-3, .row-1 {
+            display: flex;
+            width: 100%;
+            justify-content: space-around; /* Space between the watches */
+            margin-bottom: 20px; /* Space between rows */
+        }
+        .row-1 {
+            justify-content: center;
+        }
+        .product {
+            background-color: rgba(8, 8, 8, 0.7); /* Semi-transparent black background for each product */
+            border: 1px solid #070707; /* White border */
+            border-radius: 5px;
+            padding: 10px;
+            margin: 0 10px; /* Space between products */
+            width: 200px;
+            box-shadow: 0 0 10px rgba(231, 14, 14, 0.3); 
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .product p {
+            color: #0f0f0f; 
+            font-size: 0.9em;
+        }
+        .add-to-cart {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .add-to-cart:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="men.html">men</a></li>
+            <li><a href="women.html">women</a></li>
+            <li><a href="aboutus.html">Product </a></li>
+            <li><a href="kids.html">kids </a></li>
+            <li><a href="couples.html">couple </a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <h1>Men's Watches</h1>
+        <div class="products">
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E369853DF766FA44E1ED0FF613F563BD\WhatsApp Image 2024-06-14 at 01.05.57_6cb45c17.jpg" alt="Watch 1">
+                    <h3>Watch 1</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$100</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\67C6A1E7CE56D3D6FA748AB6D9AF3FD7\WhatsApp Image 2024-06-14 at 01.20.32_b6b16f72.jpg" alt="Watch 2">
+                    <h3>Watch 2</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$150</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B3149ECEA4628EFD23D2F86E5A723472\WhatsApp Image 2024-06-14 at 01.21.29_d805ef59.jpg" alt="Watch 3">
+                    <h3>Watch 3</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$200</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\5D7B9ADCBE1C629EC722529DD12E5129\WhatsApp Image 2024-06-14 at 01.21.42_274d38f1.jpg" alt="Watch 4">
+                    <h3>Watch 4</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$180</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\6BB61E3B7BCE0931DA574D19D1D82C88\WhatsApp Image 2024-06-14 at 01.21.50_0d2ef86f.jpg" alt="Watch 5">
+                    <h3>Watch 5</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C51CE410C124A10E0DB5E4B97FC2AF39\WhatsApp Image 2024-06-14 at 01.23.51_a7b11d16.jpg" alt="Watch 6">
+                    <h3>Watch 6</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$90</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\AAB3238922BCC25A6F606EB525FFDC56\WhatsApp Image 2024-06-14 at 01.23.59_4ddf6dfa.jpg" alt="Watch 7">
+                    <h3>Watch 7</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$170</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\3C59DC048E8850243BE8079A5C74D079\WhatsApp Image 2024-06-14 at 01.25.16_ffc44442.jpg" alt="Watch 8">
+                    <h3>Watch 8</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B6D767D2F8ED5D21A44B0E5886680CB9\WhatsApp Image 2024-06-14 at 01.25.17_5011fc6c.jpg" alt="Watch 9">
+                    <h3>Watch 9</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$300</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\37693CFC748049E45D87B8C7D8B9AACD\WhatsApp Image 2024-06-14 at 01.25.17_6d22e89d.jpg" alt="Watch 10">
+                    <h3>Watch 10</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$140</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\6364D3F0F495B6AB9DCF8D3B5C6E0B01\WhatsApp Image 2024-06-14 at 01.26.57_bb244cac.jpg" alt="Watch 11">
+                    <h3>Watch 11</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$110</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\182BE0C5CDCD5072BB1864CDEE4D3D6E\WhatsApp Image 2024-06-14 at 01.26.58_8c36271c.jpg" alt="Watch 12">
+                    <h3>Watch 12</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$190</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\1C383CD30B7C298AB50293ADFECB7B18\WhatsApp Image 2024-06-14 at 01.26.58_0eacfd5a.jpg" alt="Watch 13">
+                    <h3>Watch 13</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$220</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E369853DF766FA44E1ED0FF613F563BD\WhatsApp Image 2024-06-14 at 01.26.58_63200a1e.jpg" alt="Watch 14">
+                    <h3>Watch 14</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$260</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D9D4F495E875A2E075A1A4A6E1B9770F\WhatsApp Image 2024-06-14 at 01.29.25_9c47b4e9.jpg" alt="Watch 15">
+                    <h3>Watch 15</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$130</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\67C6A1E7CE56D3D6FA748AB6D9AF3FD7\WhatsApp Image 2024-06-14 at 01.29.25_a64176fe.jpg" alt="Watch 16">
+                    <h3>Watch 16</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$100</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\642E92EFB79421734881B53E1E1B18B6\WhatsApp Image 2024-06-14 at 01.29.26_eb8f56c7.jpg" alt="Watch 17">
+                    <h3>Watch 17</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$150</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\F457C545A9DED88F18ECEE47145A72C0\WhatsApp Image 2024-06-14 at 01.29.26_64006f5a.jpg" alt="Watch 18">
+                    <h3>Watch 18</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$200</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C0C7C76D30BD3DCAEFC96F40275BDC0A\WhatsApp Image 2024-06-14 at 01.29.26_76f19c37.jpg" alt="Watch 19">
+                    <h3>Watch 19</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$180</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\7F39F8317FBDB1988EF4C628EBA02591\WhatsApp Image 2024-06-14 at 01.31.29_0b691842.jpg" alt="Watch 20">
+                    <h3>Watch 20</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\44F683A84163B3523AFE57C2E008BC8C\WhatsApp Image 2024-06-14 at 01.31.29_e521c184.jpg" alt="Watch 21">
+                    <h3>Watch 21</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$90</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\FC490CA45C00B1249BBE3554A4FDF6FB\WhatsApp Image 2024-06-14 at 01.31.30_bf305ce1.jpg" alt="Watch 22">
+                    <h3>Watch 22</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$170</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\03AFDBD66E7929B125F8597834FA83A4\WhatsApp Image 2024-06-14 at 01.31.29_c6c4bcdd.jpg" alt="Watch 23">
+                    <h3>Watch 23</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\EA5D2F1C4608232E07D3AA3D998E5135\WhatsApp Image 2024-06-14 at 01.31.29_1cc8d159.jpg" alt="Watch 24">
+                    <h3>Watch 24</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$300</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            
+        
+            
+        </div>
+    </div>
+</body>
+</html>E html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Watches - MKN Cosmetics</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://source.unsplash.com/random') no-repeat center center fixed; /* Background image */
+            background-size: cover;
+            color: #000000; 
+        }
+        nav {
+            width: 100%;
+            background-color: rgba(19, 19, 19, 0.7); /* Black background for navigation */
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: #fff; /* White text */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .row-3, .row-1 {
+            display: flex;
+            width: 100%;
+            justify-content: space-around; /* Space between the watches */
+            margin-bottom: 20px; /* Space between rows */
+        }
+        .row-1 {
+            justify-content: center;
+        }
+        .product {
+            background-color: rgba(8, 8, 8, 0.7); /* Semi-transparent black background for each product */
+            border: 1px solid #070707; /* White border */
+            border-radius: 5px;
+            padding: 10px;
+            margin: 0 10px; /* Space between products */
+            width: 200px;
+            box-shadow: 0 0 10px rgba(231, 14, 14, 0.3); 
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .product p {
+            color: #0f0f0f; 
+            font-size: 0.9em;
+        }
+        .add-to-cart {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .add-to-cart:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <h1>Men's Watches</h1>
+        <div class="products">
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E369853DF766FA44E1ED0FF613F563BD\WhatsApp Image 2024-06-14 at 01.05.57_6cb45c17.jpg" alt="Watch 1">
+                    <h3>Watch 1</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$100</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\67C6A1E7CE56D3D6FA748AB6D9AF3FD7\WhatsApp Image 2024-06-14 at 01.20.32_b6b16f72.jpg" alt="Watch 2">
+                    <h3>Watch 2</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$150</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B3149ECEA4628EFD23D2F86E5A723472\WhatsApp Image 2024-06-14 at 01.21.29_d805ef59.jpg" alt="Watch 3">
+                    <h3>Watch 3</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$200</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\5D7B9ADCBE1C629EC722529DD12E5129\WhatsApp Image 2024-06-14 at 01.21.42_274d38f1.jpg" alt="Watch 4">
+                    <h3>Watch 4</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$180</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\6BB61E3B7BCE0931DA574D19D1D82C88\WhatsApp Image 2024-06-14 at 01.21.50_0d2ef86f.jpg" alt="Watch 5">
+                    <h3>Watch 5</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C51CE410C124A10E0DB5E4B97FC2AF39\WhatsApp Image 2024-06-14 at 01.23.51_a7b11d16.jpg" alt="Watch 6">
+                    <h3>Watch 6</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$90</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\AAB3238922BCC25A6F606EB525FFDC56\WhatsApp Image 2024-06-14 at 01.23.59_4ddf6dfa.jpg" alt="Watch 7">
+                    <h3>Watch 7</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$170</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\3C59DC048E8850243BE8079A5C74D079\WhatsApp Image 2024-06-14 at 01.25.16_ffc44442.jpg" alt="Watch 8">
+                    <h3>Watch 8</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B6D767D2F8ED5D21A44B0E5886680CB9\WhatsApp Image 2024-06-14 at 01.25.17_5011fc6c.jpg" alt="Watch 9">
+                    <h3>Watch 9</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$300</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\37693CFC748049E45D87B8C7D8B9AACD\WhatsApp Image 2024-06-14 at 01.25.17_6d22e89d.jpg" alt="Watch 10">
+                    <h3>Watch 10</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$140</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\6364D3F0F495B6AB9DCF8D3B5C6E0B01\WhatsApp Image 2024-06-14 at 01.26.57_bb244cac.jpg" alt="Watch 11">
+                    <h3>Watch 11</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$110</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\182BE0C5CDCD5072BB1864CDEE4D3D6E\WhatsApp Image 2024-06-14 at 01.26.58_8c36271c.jpg" alt="Watch 12">
+                    <h3>Watch 12</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$190</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\1C383CD30B7C298AB50293ADFECB7B18\WhatsApp Image 2024-06-14 at 01.26.58_0eacfd5a.jpg" alt="Watch 13">
+                    <h3>Watch 13</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$220</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E369853DF766FA44E1ED0FF613F563BD\WhatsApp Image 2024-06-14 at 01.26.58_63200a1e.jpg" alt="Watch 14">
+                    <h3>Watch 14</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$260</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D9D4F495E875A2E075A1A4A6E1B9770F\WhatsApp Image 2024-06-14 at 01.29.25_9c47b4e9.jpg" alt="Watch 15">
+                    <h3>Watch 15</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$130</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\67C6A1E7CE56D3D6FA748AB6D9AF3FD7\WhatsApp Image 2024-06-14 at 01.29.25_a64176fe.jpg" alt="Watch 16">
+                    <h3>Watch 16</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$100</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\642E92EFB79421734881B53E1E1B18B6\WhatsApp Image 2024-06-14 at 01.29.26_eb8f56c7.jpg" alt="Watch 17">
+                    <h3>Watch 17</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$150</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\F457C545A9DED88F18ECEE47145A72C0\WhatsApp Image 2024-06-14 at 01.29.26_64006f5a.jpg" alt="Watch 18">
+                    <h3>Watch 18</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$200</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C0C7C76D30BD3DCAEFC96F40275BDC0A\WhatsApp Image 2024-06-14 at 01.29.26_76f19c37.jpg" alt="Watch 19">
+                    <h3>Watch 19</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$180</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\7F39F8317FBDB1988EF4C628EBA02591\WhatsApp Image 2024-06-14 at 01.31.29_0b691842.jpg" alt="Watch 20">
+                    <h3>Watch 20</h3>
+                    <p>Sporty men's watch.</p>
+                    <p>$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\44F683A84163B3523AFE57C2E008BC8C\WhatsApp Image 2024-06-14 at 01.31.29_e521c184.jpg" alt="Watch 21">
+                    <h3>Watch 21</h3>
+                    <p>Classic men's watch.</p>
+                    <p>$90</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\FC490CA45C00B1249BBE3554A4FDF6FB\WhatsApp Image 2024-06-14 at 01.31.30_bf305ce1.jpg" alt="Watch 22">
+                    <h3>Watch 22</h3>
+                    <p>Stylish men's watch.</p>
+                    <p>$170</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\03AFDBD66E7929B125F8597834FA83A4\WhatsApp Image 2024-06-14 at 01.31.29_c6c4bcdd.jpg" alt="Watch 23">
+                    <h3>Watch 23</h3>
+                    <p>Elegant men's watch.</p>
+                    <p>$250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row-1">
+                <div class="product">
+                    <img src="c:\Users\HOME\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\EA5D2F1C4608232E07D3AA3D998E5135\WhatsApp Image 2024-06-14 at 01.31.29_1cc8d159.jpg" alt="Watch 24">
+                    <h3>Watch 24</h3>
+                    <p>Modern men's watch.</p>
+                    <p>$300</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            
+        
+            
+        </div>
+    </div>
+</body>
+</html>
